@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+img{
+	max-width: 100%;
+    display: block;
+}
+
+.learn_more{
+	margin: 50px;
+	margin-left: 200px;
+	padding: 20px;
+	background: none;
+	border: none;
+}
+
+.learn_more a{
+
+	font-size: 4em;
+	font-style: italic;
+	color: green;
+    margin: 100px 100px;
+    text-decoration: none;
+    text-align: center;
+    padding: 7px 5px;
+    margin-top: 20px;
+    background: pink;
+    border-radius: 12px;
+ }
+
+.learn_more a:hover{
+	color: 	green;	
+	background-color: yellow;
+}
+
+.img-fluid{
+	width: 50%;
+    display: block;
+    float: left;
+    padding: 5px;
+    border: 2em black;
+}
